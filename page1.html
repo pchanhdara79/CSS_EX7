@@ -4,29 +4,43 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Styling Links: Horizontal Menus (flexbox)</title>
-    <link href="page1.css" rel="stylesheet" type="text/css">
+	<link href="page1.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 
 	<div class="wrapper">
+
 		<header class="header">
 			<h1>Using Lists for Navigation: Horizontal Menus</h1>
 			<p>display: flex method</p>
 
-			<nav class="menu">
-				<ul class="link-list">
-					<li><a href="index.html" class="list-item current-page">Home</a></li>
-					<li><a href="1-menu.html" class="list-item">Menu</a></li>
-					<li><a href="2-menu.html" class="list-item">Tabs</a></li>
-					<li><a href="About.html" class="list-item">About</a></li>
-					<li><a href="Contact.html" class="list-item">Contact</a></li>
+			<nav>
+				<ul class="menu">
+					<li class="menu-item">
+						<a href="index.html" class="menu-link current-page">Home</a>
+					</li>
+
+					<li class="menu-item">
+						<a href="1-menu.html" class="menu-link">Menu</a>
+					</li>
+
+					<li class="menu-item">
+						<a href="2-menu.html" class="menu-link">Tabs</a>
+					</li>
+
+					<li class="menu-item">
+						<a href="About.html" class="menu-link">About</a>
+					</li>
+
+					<li class="menu-item">
+						<a href="Contact.html" class="menu-link">Contact</a>
+					</li>
 				</ul>
 			</nav>
-
 		</header>
 
-		<main class="main">
+		<main class="main-content">
 			<article>
 				<h2>display: flex Method</h2>
 
@@ -42,5 +56,6 @@
 		</main>
 
 	</div>
+
 </body>
 </html>

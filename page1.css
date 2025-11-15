@@ -22,32 +22,35 @@ code {
 .menu {
     background-color: rgb(192, 192, 192);
     border: 1px solid rgb(128, 128, 128);
-}
-
-.link-list {
     display: flex;
+    padding: 10px;
     list-style-type: none;
-    padding: 0;
-    margin: 15px 0px;
+    justify-content: space-around;
 }
 
-.list-item {
-    padding: 15px 20px;
-    text-decoration: none;
+.menu-item {
+    flex-grow: 1;
+    margin: 0 8px;
+}
+
+.menu-link {
     color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
 }
 
-.list-item:hover {
-    color: rgb(255, 255, 255);
+.menu-link:hover {
     background-color: rgb(128, 128, 128);
+    color: rgb(255, 255, 255);
 }
 
 .current-page {
-    color: rgb(255, 255, 255);
     background-color: rgb(128, 128, 128);
+    color: rgb(255, 255, 255);
 }
 
-.main {
+.main-content {
     border: 3px double rgb(128, 128, 128);
     background-color: rgb(255, 255, 255);
     padding: 10px;

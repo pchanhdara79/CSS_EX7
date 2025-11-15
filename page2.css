@@ -3,7 +3,7 @@ body {
 }
 
 code {
-    font-size: 18px;
+    font-size: 21px;
     font-weight: bold;
 }
 
@@ -28,34 +28,36 @@ code {
     padding-left: 10px;
 }
 
-.link-list {
+.menu {
     display: flex;
+    padding: 10px;
     list-style-type: none;
-    padding: 5px 0;
-    margin: 0;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-.list-item {
-    display: block;
-    text-decoration: none;
-    padding: 6px 0;
-    background-color: rgb(140, 162, 235);
-    color: rgb(12, 12, 189);
+.menu-item {
+    flex-grow: 1;
+    margin: 0 8px;
+}
+
+.menu-link {
+    background-color: cornflowerblue;
+    color: blue;
+    padding: 10px;
     text-align: center;
-    flex: 1;
+    text-decoration: none;
 }
 
-.list-item:hover {
+.menu-link:hover {
     background-color: powderblue;
+    color: blue;
 }
 
 .current-page {
-    background-color: powderblue;
-    color: rgb(12, 12, 189);
-    font-weight: bold;
+    background-color: white;
+    color: blue;
 }
 
-.main {
+.main-content {
     padding: 10px;
 }
