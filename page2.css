@@ -1,0 +1,56 @@
+body {
+    background-color: azure;
+}
+
+code {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.wrapper {
+    width: 950px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    border: 3px solid lightsteelblue;
+}
+
+.header {
+    padding-top: 20px;
+    background-color: powderblue;
+}
+
+.heading {
+    padding-left: 10px;
+    margin: 0;
+}
+
+.intro {
+    padding-left: 10px;
+}
+
+.link-list {
+    display: flex;
+    list-style-type: none;
+    padding: 5px 0px;
+    margin: 0px;
+    justify-content: space-between;
+}
+
+.list-item {
+    text-decoration: none;
+    padding: 5.5px 68px;
+    background-color: rgb(140, 162, 235);
+    color: rgb(12, 12, 189);
+}
+
+.list-item:hover {
+    background-color: rgb(168, 184, 227);
+}
+
+.current-page {
+    background-color: rgb(177, 237, 237);
+}
+
+.main {
+    padding: 10px;
+}
