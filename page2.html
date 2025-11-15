@@ -1,56 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Styling Links: Horizontal Menus (Flexbox)</title>
+    <title>CSS Exercise 7: Horizontal Menus</title>
     <link href="page2.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-
     <div class="wrapper">
         <header class="header">
             <h1 class="heading">Using Lists for Navigation: Horizontal Menus</h1>
-            <p class="intro"><code>display: flex</code> method (alt)</p>
+            <p class="intro"><strong>display: flex</strong> method (alt)</p>
 
-            <nav>
-                <ul class="menu">
-                    <li class="menu-item">
-                        <a class="menu-link" href="index-2.html">Inline</a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-link" href="2inline-alt.html">Inline Alt</a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-link" href="3flex.html">Flex</a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-link current-page" href="4flex-alt.html">Flex Alt</a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-link" href="5float.html">Float</a>
-                    </li>
-                </ul>
-            </nav>
+            <ul class="menu">
+                <li class="menu-item">
+                    <a href="index-2.html" class="menu-link">Inline</a>
+                </li>
+                <li class="menu-item">
+                    <a href="2inline-alt.html" class="menu-link">Inline Alt</a>
+                </li>
+                <li class="menu-item">
+                    <a href="3flex.html" class="menu-link">Flex</a>
+                </li>
+                <li class="menu-item">
+                    <a href="4flex-alt.html" class="menu-link current-page">Flex Alt</a>
+                </li>
+                <li class="menu-item">
+                    <a href="5float.html" class="menu-link">Float</a>
+                </li>
+            </ul>
         </header>
 
         <main class="main-content">
-            <article>
-                <h2><code>display: flex</code> method to create equal width buttons and tabs just for fun.</h2>
+            <h2>display: flex method to create equal width buttons and tabs just for fun.</h2>
 
-                <p>This menu is using <code>display: flex</code> to create horizontal display.</p>
+            <p>This menu is using display: flex to create horizontal display.</p>
 
-                <p>With flexbox, the unordered list is the flex container and the list items are the children.</p>
+            <p>With flexbox, the unordered list is the flex container and the list items are the children.</p>
 
-                <p>Using equal flex values makes each tab the same width.</p>
+            <p>Using equal flex values makes each tab the same width. The text is centered, and padding on top/bottom of the anchor tag sets the height. The anchor tag is styled to generate a block display box. The gap between the list items is styled in the list.</p>
 
-                <p>The current tab matches the page background color to create a “tab” effect.</p>
-            </article>
+            <p>The current tab matches the page background color to create a “tab” effect.</p>
         </main>
     </div>
-
 </body>
-
 </html>
