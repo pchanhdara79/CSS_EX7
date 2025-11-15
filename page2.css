@@ -31,24 +31,29 @@ code {
 .link-list {
     display: flex;
     list-style-type: none;
-    padding: 5px 0px;
-    margin: 0px;
+    padding: 5px 0;
+    margin: 0;
     justify-content: space-between;
 }
 
 .list-item {
+    display: block;
     text-decoration: none;
-    padding: 5.5px 68px;
+    padding: 6px 0;
     background-color: rgb(140, 162, 235);
     color: rgb(12, 12, 189);
+    text-align: center;
+    flex: 1;
 }
 
 .list-item:hover {
-    background-color: rgb(168, 184, 227);
+    background-color: powderblue;
 }
 
 .current-page {
-    background-color: rgb(177, 237, 237);
+    background-color: powderblue;
+    color: rgb(12, 12, 189);
+    font-weight: bold;
 }
 
 .main {
