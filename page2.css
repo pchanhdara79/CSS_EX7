@@ -38,9 +38,10 @@ code {
 .menu-link {
     background-color: cornflowerblue;
     color: blue;
-    padding: 10px;
+    padding: 15px 20px;  
     text-align: center;
     text-decoration: none;
+    display: block;
 }
 
 .menu-item {
@@ -53,8 +54,8 @@ code {
     color: blue;
 }
 
-.menu-link:active {
-    background-color: white;
+.menu-link.current-page { 
+    background-color: aliceblue;
     color: blue;
 }
 
