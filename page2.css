@@ -1,31 +1,31 @@
 body {
-    background-color: azure;
+	background-color: azure;
 }
 
 code {
-    font-size: 21px;
-    font-weight: bold;
+	font-size: 1.1em;
+	font-weight: bold;
 }
 
 .wrapper {
-    width: 950px;
-    margin: 0 auto;
-    background-color: aliceblue;
-    border: 3px solid lightsteelblue;
+	width: 948px;
+	margin: 0 auto;
+	background-color: aliceblue;
+	border: 3px solid lightsteelblue;
 }
 
 .header {
-    padding-top: 20px;
-    background-color: powderblue;
+	padding-top: 20px;
+	background-color: powderblue;
 }
 
 .heading {
-    padding-left: 10px;
-    margin: 0;
+	padding-left: 10px;
+	margin: 0;
 }
 
 .intro {
-    padding-left: 10px;
+	padding-left: 10px;
 }
 
 .menu {
@@ -33,11 +33,6 @@ code {
     padding: 10px;
     list-style-type: none;
     justify-content: space-around;
-}
-
-.menu-item {
-    flex-grow: 1;
-    margin: 0 8px;
 }
 
 .menu-link {
@@ -48,16 +43,21 @@ code {
     text-decoration: none;
 }
 
+.menu-item {
+    flex-grow: 1;
+    margin: 0 8px;
+}
+
 .menu-link:hover {
-    background-color: powderblue;
+    background-color: lightsteelblue;
     color: blue;
 }
 
-.current-page {
+.menu-link:active {
     background-color: white;
     color: blue;
 }
 
 .main-content {
-    padding: 10px;
+	padding: 10px;
 }

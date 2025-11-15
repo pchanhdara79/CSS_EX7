@@ -1,31 +1,38 @@
 body {
-    background-color: rgb(255, 255, 255);
+	background-color: #fff;
 }
 
 code {
-    font-size: 21px;
+    font-size: 1.1em;
     font-weight: bold;
 }
 
 .wrapper {
-    width: 950px;
+    width: 948px;
     margin: 0 auto;
 }
 
 .header {
-    border: 3px double rgb(128, 128, 128);
+    border: 3px double gray;
     margin-bottom: 20px;
-    background-color: rgb(222, 222, 222);
+    background-color: #dedede;
     padding: 10px;
 }
 
 .menu {
-    background-color: rgb(192, 192, 192);
-    border: 1px solid rgb(128, 128, 128);
+    background-color: silver;
+    border: 1px solid gray;
     display: flex;
     padding: 10px;
     list-style-type: none;
     justify-content: space-around;
+}
+
+.menu-link {
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
 }
 
 .menu-item {
@@ -33,25 +40,13 @@ code {
     margin: 0 8px;
 }
 
-.menu-link {
-    color: rgb(0, 0, 0);
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-}
-
 .menu-link:hover {
-    background-color: rgb(128, 128, 128);
-    color: rgb(255, 255, 255);
-}
-
-.current-page {
-    background-color: rgb(128, 128, 128);
-    color: rgb(255, 255, 255);
+    background-color: #888;
+    color: white;
 }
 
 .main-content {
-    border: 3px double rgb(128, 128, 128);
-    background-color: rgb(255, 255, 255);
+    border: 3px double gray;
+    background-color: #dedede;
     padding: 10px;
 }
